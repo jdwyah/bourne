@@ -28,6 +28,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.4}
   s.summary = %q{Adds test spies to mocha.}
   s.specification_version = 3
-  s.add_runtime_dependency(%q<mocha>, ["= 0.9.8"])
+  s.add_runtime_dependency(%q<mocha>, [">= 0.9.8"])
   s.add_development_dependency(%q<rake>, [">= 0"])
 end
