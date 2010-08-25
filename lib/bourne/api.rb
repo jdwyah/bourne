@@ -45,6 +45,10 @@ module Mocha # :nodoc:
       def failure_message
         @expectation.mocha_inspect
       end
+      
+      def description
+        @expectation.mocha_inspect
+      end
 
       private
 
